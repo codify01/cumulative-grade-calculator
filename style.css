@@ -1,0 +1,24 @@
+input {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+.name,.id {
+    width:50%;
+}
+.sub {
+    margin: auto;
+}
+button {
+    padding: 5px;
+    text-align: center;
+    margin: auto 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: chocolate;
+    color: white;
+}
+#empty {
+    display: none;
+}

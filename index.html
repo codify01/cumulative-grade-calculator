@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Grading System</title>
+</head>
+<body>
+    <h1>Cummulative Result Calculator</h1>
+    <div id="empty">This space can not be empty</div>
+    <!-- <form action=""> -->
+        <div>
+            <input type="text" placeholder="Student Name" class="name" id="studentName" autofocus required>
+            <input type="number" placeholder="Student ID" class="id" id="studentID" required>
+        </div>
+        <h3>Subjects</h3>
+        <div class="sub">
+            <input type="number" placeholder="MTH 101" class="subjects" id="mth" required>
+            <input type="number" placeholder="STT 101" class="subjects" id="stt" required><br>
+            <input type="number" placeholder="CSE 141" class="subjects" id="cse141" required>
+            <input type="number" placeholder="CSE 151" class="subjects" id="cse151" required><br>
+            <input type="number" placeholder="WFE 131" class="subjects" id="wfe" required>
+            <input type="number" placeholder="GNS 101" class="subjects" id="gns" required><br>
+        </div>
+        <button onclick="show()">Calculate Grade</button>
+    <!-- </form> -->
+    <div style="margin: 10px;">
+        <div id="welcome" style="font-weight: 900;"></div>
+        <div id="remark" style="margin:10px auto"></div>
+        <div id="score"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
